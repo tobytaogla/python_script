@@ -49,7 +49,7 @@ def sequence_decode_two(sequence):
 		sequence1 = sequence[:-2] + sequence[-2:-1].replace("G","R") + sequence[-1]
 		sequence2 = sequence[:-2] + sequence[-2:-1].replace("G","S") + sequence[-1]	
 	elif "T" == sequence[-2:-1]:
-		sequence1 = sequence[:-2] + sequence[-2:-1].replace("T","W") + sequence[-1]
+		sequence1 = sequence[:-2] + sequence[-2:-1].replace("T","Y") + sequence[-1]
 		sequence2 = sequence[:-2] + sequence[-2:-1].replace("T","W") + sequence[-1]
 	return(sequence1, sequence2)		
 
